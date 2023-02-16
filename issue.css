@@ -76,6 +76,9 @@ select {
     .col-1{
         width: 50%;
     }
+    .body1{
+     height: 100%;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -95,7 +98,9 @@ select {
     .col-1{
         width: 50%;
     }
-
+  .body1{
+     height: 100%;
+    }
 
 }
 
@@ -120,7 +125,9 @@ select {
         width: 50%;
     }
 
-
+  .body1{
+     height: 100%;
+    }
 }
 
 /*Ipad pro*/
@@ -142,6 +149,9 @@ select {
     }
     .col-10{
         width: 80%;
+    }
+      .body1{
+     height: 100%;
     }
 }
 
