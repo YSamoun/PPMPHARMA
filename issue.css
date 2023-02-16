@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@500&display=swap');
+
+.header1 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 175, 245));
+    padding: 10px 10px 40px 10px;
+
+}
+
+.logo1 img {
+    height: 100px;
+
+}
+
+.body1 {
+    background: url(https://media.istockphoto.com/id/1174989472/photo/abstract-cube-backgrounds-loopable-elements-4k-resolution.jpg?b=1&s=170667a&w=0&k=20&c=NhXIaa3RzsrNI21kXcNrVkJIuKbG9Wka3TVTPB6LPLk=);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 70px 0px 70px 0px;
+    height: 100%;
+}
+.header1{
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+.header h1 {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-shadow: 10px -3px 7px;
+    color: rgb(7, 7, 7);
+}
+
+label,
+input {
+    margin-top: 5px;
+}
+
+.des {
+    width: 100%;
+
+}
+
+select {
+    border-radius: 5px;
+}
+
+.footer {
+    height: 200px;
+    background: rgb(47, 0, 255);
+}
+.btn{
+    margin-right: 10px;
+}
+
+/* Moblie Phone*/
+@media (max-width: 575.98px) {
+    .header1{
+        padding: 10px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .logo1 img {
+        height: 60px;
+    
+    }
+    .btn{
+        margin-right: 10px;
+        width:  80px;
+    }
+    .col-1{
+        width: 50%;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header1{
+        padding: 10px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .logo1 img {
+        height: 60px;
+    
+    }
+    .btn{
+        margin-right: 10px;
+        width:  80px;
+    }
+    .col-1{
+        width: 50%;
+    }
+
+
+}
+
+/*Ipad*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header1{
+        padding: 10px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .logo1 img {
+        height: 60px;
+    
+    }
+    .btn{
+        margin-right: 10px;
+        width:  80px;
+    }
+    .col-1{
+        width: 25%;
+    }
+    .col-10{
+        width: 50%;
+    }
+
+
+}
+
+/*Ipad pro*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header1{
+        padding: 30px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .logo1 img {
+        height: 60px;
+    
+    }
+    .btn{
+        margin-right: 10px;
+        width:  80px;
+    }
+    .col-1{
+        width: 10%;
+    }
+    .col-10{
+        width: 80%;
+    }
+}
+
+/*Laptop*/
+@media (min-width: 1200px) {
+    
+}
