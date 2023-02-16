@@ -17,10 +17,7 @@
 }
 
 .body1 {
-    background: url(https://media.istockphoto.com/id/1174989472/photo/abstract-cube-backgrounds-loopable-elements-4k-resolution.jpg?b=1&s=170667a&w=0&k=20&c=NhXIaa3RzsrNI21kXcNrVkJIuKbG9Wka3TVTPB6LPLk=);
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: auto;
+    background-color: cyan;
     padding: 70px 0px 70px 0px;
     height: 100%;
 }
